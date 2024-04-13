@@ -1,9 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T03:32:30.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.3" etag="-Wm29Aom5UIMIqvg9a94" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T04:11:05.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-YWlMk6SjCe7cN3L065s" version="24.2.3" type="github">
   <diagram name="第 1 页" id="27t6XMyVxRSfscTJFfou">
-    <mxGraphModel>
+    <mxGraphModel dx="1049" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tuawifqD_bdAcp9sHMCU-1" value="&lt;div style=&quot;background-color: rgb(30, 31, 34);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;def &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 168, 245);&quot;&gt;factorial&lt;/span&gt;&lt;font color=&quot;#bcbec4&quot;&gt;(n):&lt;br&gt;    &lt;/font&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;if &lt;/span&gt;&lt;font color=&quot;#bcbec4&quot;&gt;n == &lt;/font&gt;&lt;font color=&quot;#2aacb8&quot;&gt;1&lt;/font&gt;&lt;font color=&quot;#bcbec4&quot;&gt;:&lt;br&gt;        &lt;/font&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: rgb(42, 172, 184);&quot;&gt;1&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(42, 172, 184);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;else&lt;/span&gt;&lt;font color=&quot;#bcbec4&quot;&gt;:&lt;br&gt;        &lt;/font&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;return &lt;/span&gt;&lt;font color=&quot;#bcbec4&quot;&gt;n * factorial(n - &lt;/font&gt;&lt;span style=&quot;color: rgb(42, 172, 184);&quot;&gt;1&lt;/span&gt;&lt;font color=&quot;#bcbec4&quot;&gt;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-20" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-2" target="tuawifqD_bdAcp9sHMCU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-14" value="n!=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-8">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-2" value="factorial(4)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-4" target="tuawifqD_bdAcp9sHMCU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-15" value="n!=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-9">
+          <mxGeometry x="-0.0928" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-4" target="tuawifqD_bdAcp9sHMCU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-28" value="factorial(4) = 4 * 6 = 24&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-27">
+          <mxGeometry x="-0.0679" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-4" value="4*factorial(3)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-5" target="tuawifqD_bdAcp9sHMCU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-16" value="n!=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-10">
+          <mxGeometry x="-0.0019" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-5" target="tuawifqD_bdAcp9sHMCU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-26" value="factorial(3) = 3 * 2 = 6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-25">
+          <mxGeometry x="0.1458" y="-1" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-5" value="3*factorial(2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-6" target="tuawifqD_bdAcp9sHMCU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-17" value="n!=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-11">
+          <mxGeometry x="-0.1534" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-6" target="tuawifqD_bdAcp9sHMCU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-24" value="factorial(2) = 2 * 1 = 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-22">
+          <mxGeometry x="0.0176" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-6" value="2*factorial(1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="tuawifqD_bdAcp9sHMCU-7" target="tuawifqD_bdAcp9sHMCU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-21" value="n=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuawifqD_bdAcp9sHMCU-18">
+          <mxGeometry x="0.086" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-7" value="factorial(1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-29" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-31" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-32" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-33" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-34" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-35" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-36" value="7" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-37" value="8" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuawifqD_bdAcp9sHMCU-38" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;我们以计算factorial(4)为例&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;其中：&lt;div&gt;递的过程：&lt;font color=&quot;#ea6b66&quot;&gt;1、2、3、4&lt;/font&gt;&lt;/div&gt;&lt;div&gt;归的过程：&lt;font color=&quot;#5bff42&quot;&gt;5、6、7、8&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
